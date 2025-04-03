@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+h3 {
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 22px;
+    color: #555;
+}
+
+/* Profile Picture */
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 4px solid #070707;
+}
+
+/* Contact Section */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Experience & Skills */
+ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-md-4, .col-md-8 {
+        width: 100%;
+    }
+
+    img {
+        max-width: 120px;
+    }
+}
